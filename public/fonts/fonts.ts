@@ -17,6 +17,9 @@ export const SANS_SERI_FONT_FAMILIES = [
   "Montserrat",
   "OpenSans",
   "Raleway",
+  "ZaoZiGong",
+  "SmileySans",
+  "PingFangSC",
 ] as const;
 
 export const SERI_FONT_FAMILIES = [
@@ -45,4 +48,7 @@ export const FONT_FAMILY_TO_STANDARD_SIZE_IN_PT: Record<FontFamily, number> = {
   RobotoSlab: 10,
   PlayfairDisplay: 10,
   Merriweather: 10,
+  ZaoZiGong: 11,
+  SmileySans: 11,
+  PingFangSC: 11,
 };
